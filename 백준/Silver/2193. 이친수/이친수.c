@@ -1,6 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#define MAX 92
+#define MAX 90
 
 int main(void)
 {
