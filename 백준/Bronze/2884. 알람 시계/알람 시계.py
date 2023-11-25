@@ -1,13 +1,12 @@
-hour, min = map(int,input().split(' '))
+import sys
+hour, min = map(int,sys.stdin.readline().split())
 
-min = hour*60 + min
+if min < 45:
+  hour -= 1
+  min += 15
+  if hour < 0:
+    hour = 23
 
-min = min - 45
-if(min < 0):
-  min += 24 * 60
+else: min -= 45
 
-hour = min // 60
-min = min % 60
-
-print(hour, end = ' ')
-print(min)
+print(hour, min)
