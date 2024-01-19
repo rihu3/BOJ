@@ -6,6 +6,4 @@ for idx in range(2,41):
 
 for _ in range(T):
   num = int(input())
-  print(ary[num][0], end = " ")
-  print(ary[num][1])
-
+  print(ary[num][0], ary[num][1])
