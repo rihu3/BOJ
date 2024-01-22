@@ -1,29 +1,20 @@
 #include <stdio.h>
-#include <string.h>
-
-int pow(int x, int n);
 
 int main(void) {
-	int r = 31, M = 1234567891;
 	int len;
+    long long M = 1234567891;
 	scanf("%d", &len);
-	char str[5];
+	char str[51];
 	scanf("%s", str);
-	int hash = 0;
+	unsigned long long hash = 0;
+	long long r = 1;
 	for (int i = 0; i < len; i++)
 	{
-		hash += (str[i] - 'a' + 1) * pow(r, i);
+		hash = (hash + (str[i] - 'a' + 1) * r) % M;
+		r = (r * 31) % M;
 	}
-	printf("%d", hash);
+	printf("%lld", hash);
+
 	return 0;
 }
 
-int pow(int x, int n)
-{
-	int value = 1;
-	for (int i = 0; i < n; i++)
-	{
-		value *= x;
-	}
-	return value;
-}
