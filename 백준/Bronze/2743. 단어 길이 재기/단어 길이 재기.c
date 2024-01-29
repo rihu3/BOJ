@@ -1,14 +1,10 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-	char S[100];
-	scanf("%s", S);
-	int len = 0;
-	while (S[len] != '\0')
-	{
-		len++;
-	}
-	printf("%d", len);
-		return 0;
+    char s[101];
+    scanf("%s", s);
+    printf("%d", strlen(s));
+    return 0;
 }
