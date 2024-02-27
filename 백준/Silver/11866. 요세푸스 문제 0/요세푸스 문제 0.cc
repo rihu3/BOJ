@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int queue[600000];
+int queue[500000];
 int front = -1;
 int rear = -1;
 
