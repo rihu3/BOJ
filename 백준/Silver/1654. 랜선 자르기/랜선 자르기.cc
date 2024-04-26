@@ -7,7 +7,7 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 	int k, n, lan[10000];
-	long long max = 0;
+	int max = 0;
 	cin >> k >> n;
 	for (int i = 0; i < k; i++)
 	{
