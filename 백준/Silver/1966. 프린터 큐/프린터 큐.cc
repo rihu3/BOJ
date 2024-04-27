@@ -7,7 +7,7 @@ public:
     int priority;
 };
 
-Document queue[1000000];
+Document queue[100000];
 int front = 0;
 int rear = -1;
 
