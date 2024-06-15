@@ -26,17 +26,17 @@
 
 <p>지난해 현대모비스 알고리즘 경진대회에 참가한 재우는 기념품 중 하나로 다음과 같이 생긴 휴대용 선풍기를 받았다. 선풍기는 바람이 나오는 부분과 선풍기를 받치는 부분으로 이루어져 있다. 재우는 심심할 때 선풍기 받침대를 바닥에 굴리며 놀다가 문득 새삼 선풍기 받침이 굴러갈 때 자취의 넓이가 궁금해져서 다음과 같은 문제를 만들었다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/ada20997-b623-4e9e-ab82-100032948235/-/preview/" style="height: 302px; width: 400px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="height: 302px; width: 400px;"></p>
 
 <p>두 밑변의 길이가 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$a$</span></mjx-container>, <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44F TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>b</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$b$</span></mjx-container>이며 다른 변 중 하나가 길이 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c210E TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$h$</span></mjx-container>로 두 밑변과 수직을 이루는 사다리꼴을 생각하자. 이때, 이 변을 <strong>높이변</strong>이라고 하자. 만약 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D44E TEX-I"></mjx-c></mjx-mi><mjx-mo class="mjx-n" space="4"><mjx-c class="mjx-c3D"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="4"><mjx-c class="mjx-c30"></mjx-c></mjx-mn></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi><mo>=</mo><mn>0</mn></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$a=0$</span></mjx-container>이라면, 사다리꼴이 아닌 삼각형이라고 생각할 수 있다.</p>
 
 <p>이 사다리꼴을 <strong>높이변</strong>을 축으로 하여 회전시키면 오른쪽과 같은 입체 도형 <mjx-container class="MathJax" jax="CHTML" style="font-size: 109%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D446 TEX-I"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>S</mi></math></mjx-assistive-mml><span aria-hidden="true" class="no-mathjax mjx-copytext">$S$</span></mjx-container>가 하나 나온다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/af16b27d-48b5-4848-a19f-d4ff59ad8bc1/-/preview/" style="height: 258px; width: 400px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="height: 258px; width: 400px;"></p>
 
 <p>이제 이 도형의 옆면을 바닥에 놓고 아래와 같이 무한히 굴린다.</p>
 
-<p style="text-align: center;"><img alt="" src="https://upload.acmicpc.net/115bee84-d302-4686-8279-ed12f8808286/-/crop/892x827/2773,1278/-/preview/" style="height: 371px; width: 400px;"></p>
+<p style="text-align: center;"><img alt="" src="" style="height: 371px; width: 400px;"></p>
 
 <p>도형의 옆면이 만드는 자취가 남게 될 것이다. 이 자취의 넓이를 구해보자.</p>
 
