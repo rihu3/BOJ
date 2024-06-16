@@ -4,9 +4,6 @@ using namespace std;
 #define PI 3.141592653589793
 
 int main() {
-	ios_base::sync_with_stdio(false);
-	cin.tie(NULL);
-	cout.tie(NULL);
 	cout << fixed;
 	cout.precision(2);
 	double x1, y1, x2, y2, x3, y3;
