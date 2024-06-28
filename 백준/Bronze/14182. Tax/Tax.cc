@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int money;
-	long long result;
+	int result;
 	while (true)
 	{
 		cin >> money;
