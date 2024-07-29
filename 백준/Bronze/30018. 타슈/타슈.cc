@@ -8,12 +8,10 @@ int main()
 	cin >> n;
 	for (int i = 0; i < n; i++)
 		cin >> a[i];
-	for (int i = 0; i < n; i++)
-		cin >> b[i];
-
 	int sum = 0;
 	for (int j = 0; j < n; j++)
 	{
+		cin >> b[j];
 		int dif = a[j] - b[j];
 		if (dif < 0) dif = -1 * dif;
 		sum += dif;
