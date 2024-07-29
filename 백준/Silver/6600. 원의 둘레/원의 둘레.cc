@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-#define PI 3.141592653589793
+#define PI acos(-1.0)
 
 int main() {
 	cout << fixed;
@@ -13,7 +13,7 @@ int main() {
 		double powSide3 = pow(x1 - x3, 2) + pow(y1 - y3, 2);
 		double triArea = ((x1 * y2 + x2 * y3 + x3 * y1) - (y1 * x2 + y2 * x3 + y3 * x1)) / 2;
 		double powRadius = (powSide1 * powSide2 * powSide3) / (16 * pow(triArea, 2));
-		double CircleArea =2 * PI * sqrt(powRadius); // 2pi * r
+		double CircleArea = 2 * PI * sqrt(powRadius); // 2pi * r
 		cout << CircleArea << "\n";
 	}
 	return 0;
